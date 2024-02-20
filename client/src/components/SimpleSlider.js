@@ -7,8 +7,8 @@ import banner3 from "../img/order.jpg";
 import banner4 from "../img/banner5.jpg";
 import banner6 from "../img/openner.jpg";
 
-export default function SimpleSlider() {
-  var settings = {
+function SimpleSlider() {
+  let settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -41,3 +41,4 @@ export default function SimpleSlider() {
     </Slider>
   );
 }
+export default SimpleSlider;
